@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC >
+
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="This is my resume"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style type="text/css">
+
+
+        #slider {
+            overflow: hidden;            
+            margin-right: 280px;
+            margin-left: 280px;
+        }
+        #slider figure{
+            position: relative;
+            width: 2850px;
+            left: 0;
+            animation: 25s mymove infinite;
+        }
+        #slider figure img{
+            border: 3px solid #4e4e4e;
+            width: 20%;
+            float: left;
+            margin-right: 100px;
+        }
+        @keyframes mymove {
+            0%   {left: -15px;}
+            10%   {left: -15px;}
+            30%  {left: -690px;}
+            40%  {left: -690px;}
+            60%  {left: -1365px}
+            70%  {left: -1365px}
+            90% {left: -2040px;}
+            100% {left: -2040px;}
+        }
+
+
+    </style>
+
+</head>
+
+<body class="certificates" style=" font-size: 20px;  font-family: 'Trebuchet MS',verdana;">
+        
+    <section>
+        <center>
+        <h1><b  style="font-size: 50px; text-shadow: 2px 2px #03a8dac1;" >  My Certificates</b> </h1>
+
+        <div id="slider">
+            <figure>
+                <img src="./resource/Udacity.png" >
+                <img src="./resource/ISTQB.png" >                
+                <img src="./resource/Agile.jpg" >
+                <img src="./resource/Database.png" >
+            </figure>
+        </div>
+        </center>
+
+  
+    </section>
+
+</body>
+</html>

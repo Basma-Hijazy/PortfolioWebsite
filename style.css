@@ -1,0 +1,209 @@
+*{
+  font-family: 'Dosis',sans-serif;
+}
+
+#myFile{
+width: 100%;
+background-color: #343434;
+}
+
+nav{
+margin: auto;
+display: flex;
+align-items: center;
+margin-right: 20px;
+}
+
+.ul1{
+flex:1 ;
+text-align: right;
+}
+
+ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 2px;
+}
+
+ul li a{
+  text-decoration:none ;
+  color: #71dff2f9;
+  padding: 0 10px;
+  position: relative;
+  font-size: large;
+
+}
+/*rgb(94, 197, 238) 343434 69DEF4*/
+ul li a::after{
+  content: '';
+  width: 0%;
+  height: 6px;
+  background: #71dff2f9;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  /* bottom: -15; */
+  top: -55px;
+  transition: 0.5S;
+}
+
+ul li a:hover:after{
+width: 100%;
+}
+
+#logo{
+  padding: 20px;
+}
+
+body {
+  background: #ededed; 
+  font-family: 'Trebuchet MS',verdana;
+  margin: 0;
+  height: 100vh;
+}
+
+iframe{
+width: 1200px;
+height: 560px;
+display: flex;  
+border: 0cm;
+margin-top: 65px;
+margin-left: 200px;
+}
+
+section{
+  display: flex;
+}
+
+
+/* social media page +skills */
+a{
+  color: #28bfda;
+}
+
+.social{
+  width:90px; 
+  height:90px; 
+}
+
+.container{
+margin: 15px;
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Trebuchet MS',verdana;
+}
+
+.card2{
+  position: relative;
+  flex: 1;
+  max-width: 200px;
+  height: 300px;
+  margin: 1px;
+  text-shadow: 2px 2px 2px rgba(112, 112, 112, 0.199);
+}
+
+/* skills page */
+
+.card3{
+  position: relative;
+  flex: 1;
+  max-width: 400px;
+  height: 300px;
+  margin: 1px;
+  text-shadow: 2px 2px 2px rgba(112, 112, 112, 0.199);
+}
+.zoomArea {
+  width: 70%;
+  height: auto;
+  overflow: hidden;
+  border: 1px solid #4e4e4e;
+}
+.zoomArea img{
+  width: 100%;
+  display: block;
+  transition: transform 2s;        
+}
+.zoomArea:hover img{
+  transform: scale(1.2);
+}
+
+
+
+
+
+
+/* certificates */
+/* 
+ .certificates{ 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider{
+  position: relative;
+  width: 60%;
+  overflow: hidden;
+}
+
+.images{
+  width: 100%;
+  display: flex;
+}
+
+.images img{
+  width: 100%;
+  height: 400px;
+  transition: all 0.15s ease;
+}
+
+.images input{
+  display: none;
+}
+
+.dots{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.dots label{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: solid #71dff2f9 3px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  margin: 5px;
+}
+
+.dots label:hover{
+  background: #ededed;  
+}
+
+#img1:checked ~ .m1{
+  margin-left: 0;
+}
+#img2:checked ~ .m2{
+  margin-left: -100;
+}
+#img3:checked ~ .m3{
+  margin-left: -200;
+}
+#img4:checked ~ .m4{
+  margin-left: -300;
+} */
+
+
+
+
+
